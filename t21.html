@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>AlignmentS</title>
+    <style>
+        *{
+            box-sizing: border-box;
+
+        }
+        body{
+            font-family: Verdana, Geneva, Tahoma, sans-serif;
+            /* background-color: salmon; */
+        }
+
+        .container{
+            width: 900px;
+            margin:  auto;
+
+            border: 2px solid blue;
+            background-color: cornflowerblue;
+        }
+
+        .item{
+
+            border: 2px solid rgb(142, 190, 229);
+            margin: 10px 10px;
+            padding: 12px 3px;
+            background-color: rgb(148, 148, 156);
+
+        }
+     
+         #Fruits{
+            float: left;
+            width: 48%;
+
+        }
+        
+        #computer{
+          float: left;
+          width: 48%;
+          
+        }
+        
+        #stationary{
+            clear: both;
+           width: 50%;
+        } 
+        #book{
+            /* float: left; */
+            align-items: center;
+            clear: both;
+            width: 40%;
+        }
+        h1{
+           width: 300px;
+           margin: auto;
+        }
+
+        
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1><marquee behavior="scroll" direction="rigth"></marquee>Home</h1>
+        <div id="fruits" class="item">
+            
+            <h3>Personal Trianer</h3>
+            <p id="fruitspata" class="para">
+                Lorem ipsum, dolor sit amet consectetur adipisicing elit. Modi, laudantium.
+
+            </p>
+        </div>
+        <div id="computer" class="item">
+            
+            <h3>jumba</h3>
+            <p id="Computerpata" class="para">
+                Lorem ipsum, dolor sit amet consectetur adipisicing elit. Modi, laudantium.
+
+            </p>
+        </div>
+        <div id="stationary" class="item">
+            
+            <h3>Protein</h3>
+            <p id="stationarypata" class="para">
+                Lorem ipsum, dolor sit amet consectetur adipisicing elit. Modi, laudantium.
+
+            </p>
+        </div>
+        <div id="book" class="item">
+            
+            <h3>Steamer</h3>
+            <p id="bookpara" class="para">
+                Lorem ipsum, dolor sit amet consectetur adipisicing elit. Modi, laudantium.
+
+            </p>
+        </div>
+       
+    </div>
+</body>
+</html>
